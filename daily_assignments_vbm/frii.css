@@ -1,0 +1,42 @@
+h1
+{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+table
+{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 500px;
+    background-color: rebeccapurple;
+}
+
+.col1
+{
+    border: 2px solid red;
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+.col0
+{
+    border: 2px solid blue;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+.col2
+{
+    border: 2px dashed green;
+    color: pink;
+    padding: 10px;   
+    background-color: green;
+}
+.col3
+{
+    border: 2px dotted yellow;
+    color: blue;
+    background-color: yellow;
+    padding: 10px;   
+}
