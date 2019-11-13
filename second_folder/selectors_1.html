@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Single selector
+        </title>
+        
+        
+        <style>
+            #jai h1:first-child{
+                background-color: red;
+            }
+
+            #jai h2:last-of-type{
+                background-color: blue;
+            }
+
+            #jai div:first-of-type>h1:first-child {
+                background-color: green;
+            }
+
+            #jai div:last-of-type h1:nth-child(2){
+                background-color: darkgoldenrod;
+            }
+
+            #jai div:last-of-type div h1:nth-child(2)
+            {
+                background-color: crimson;
+            }
+
+            li{
+                width: 100%;
+                float: left;
+                
+                background-color: rgb(6, 165, 6);
+                padding: 7px;
+
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            li:hover{
+                background-color: aqua;
+            }
+            
+            a{
+                text-decoration: none;
+                color: white;
+               
+                float: left;
+                text-align: center;
+            }
+
+            a[target="_blank"]:hover{
+                background-color: darkkhaki;
+            }
+           
+        </style>
+        
+    </head>
+    <body>
+        <div id="jai">
+            <h1>Jai</h1>
+            <h1>is</h1>
+            <h2>the </h2>
+            <h3>Greatest</h3>
+            <h2>person</h2>
+            <h3>in the world</h3>
+            <div>
+                <h1>test</h1>
+                <h1>test 2</h1>
+                <h1>test 3</h1>
+            </div>
+
+            <div>
+                    <h1>test2-1</h1>
+                    <h1>test 2-2</h1>
+                    <h1>test 2-3</h1>
+                    <div>
+                            <h1>test3-1</h1>
+                            <h1>test 3-2</h1>
+                            <h1>test 3-3</h1>
+                        </div>
+                </div>
+            <h6>.</h6>
+
+        </div>
+
+        <br>
+        <hr>
+        <hr>
+
+        <div class="base_2">
+            <div class="header" style="text-align: center;">
+                <ul style="display: flex; justify-content: space-around ;">
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">Services</a></li>
+                    <li><a href="#" target="_blank">About</a></li>
+                    <li><a href="#">Drop</a></li>                    
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>
