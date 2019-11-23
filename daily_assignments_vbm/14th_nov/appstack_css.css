@@ -1,0 +1,622 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+img[alt="bulb"]{
+    max-width: 15px;
+    max-height: 15px;
+    margin-right: 12px;
+}
+
+img[alt="Logo"]{
+    max-width: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 23px;
+    margin-right: 11px;
+}
+
+.header_text{
+    color: #ced4da;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    display: inline-block;
+    vertical-align: 12px;
+    
+}
+
+.sidebar{
+    background-color: #354052;
+    min-width: 256px;
+    max-width: 256px; 
+}
+
+.side_header{
+    padding: 21px;
+    height: 50px;
+   
+}
+
+.sidebar_main_1>div,small{
+    color: #ced4da;
+    padding: 14px;
+    font-size: 0.8rem;
+    margin-left: 7px;
+    
+}
+
+small{
+    font-size: 0.67rem;
+}
+
+.sidebar_main_2>div,small{
+    color: #ced4da;
+    padding: 14px;
+    font-size: 0.8rem;
+    margin-left: 7px;
+    
+}
+
+.sidebar_main_1{
+    margin-bottom: 30px;
+}
+
+.sidebar_footer{
+    min-height: 72;
+    
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 254px;
+    background-color: #354052;
+}
+
+img[alt="green"]{
+    max-width: 9px;
+    max-height: 9px;
+    display: none;
+}
+
+.dot{
+    width: 14px;
+    height: 14px;
+    border-radius:7px ;
+    background-color: rgb(23, 214, 23);
+    display: inline-block;
+}
+
+img[alt="square_pic"]{
+    max-width: 44px;
+    min-width: 44px;
+    border-radius:24px ;
+
+}
+img[alt="eesha"],img[alt="mine"],img[alt="nabha"]{
+max-width: 32px;
+min-width: 26px;
+border-radius:24px ;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.sidebar_footer{
+display: flex;
+justify-content: center;
+color: #ced4da;
+}
+
+.sidebar_footer_1{
+    margin-right: 30px;
+    margin-top: 12px;
+    margin-left: -73px;
+    
+}
+
+.body_header{
+    width: 1096px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.body_main{
+    background-color: rgb(236, 247, 246);
+    height: 1800px;
+    width: 1096px;   
+}
+
+.div1_pic,.div2_pic,.div3_pic,.div4_pic{
+    display: flex;
+align-items: center;
+margin-right: 22px;
+margin-left: 16px;
+}
+
+.body_header_1{
+    width: 80px;
+    height: 80px;
+    padding: 16px;
+}
+
+.first_stroke,.second_stroke,.third_stroke{
+ background-color: black;
+ margin-bottom: 4px;
+}
+
+.first_stroke{
+    min-width: 10px;
+    min-height: 3px;
+    max-width: 22px;
+    max-height: 3px;
+    margin-top: 5px;
+}
+
+.second_stroke{
+    min-width: 10px;
+    min-height: 3px;
+    max-width: 28px;
+    max-height: 3px;
+}
+
+.third_stroke{
+    min-width: 10px;
+    min-height: 3px;
+    max-width: 16px;
+    max-height: 3px;
+}
+
+.text_header{
+    border: 0px;
+    padding: 14px 14px 14px 14px;
+    margin-top: 9px;
+    margin-right: 30px;
+}
+
+.body_header_3{
+    width: 120px;
+
+}
+
+.body_header_sub{
+    display: flex;
+}
+
+.sidebar_footer_1>span{
+    vertical-align: 17px;
+    margin-left: 25px;
+}
+
+img[alt="cart"],img[alt="pulse"],img[alt="dollar"],img[alt="bag"]{
+    width: 36px;
+    height: 36px;
+}
+
+.div1,.div2,.div3,.div4{
+    display: flex;
+    min-width: 232px;
+    min-height: 102px;
+    max-width: 232px;
+    max-height: 102px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #babcbe;
+    margin-top: 21px;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.body_row_1{
+    display: flex;
+    padding: 15px 15px 15px 36px;
+}
+
+.base{
+    display: flex;
+    height: 100%;
+}
+
+img[alt="gear"]{
+    position: fixed;
+    top:160px;
+    right: 0px;
+    width: 40px;
+    max-height: 40px;
+    
+    min-height: 40px;
+    background-color: grey;
+    border-radius: 2px;
+}
+
+img[alt="gear"]:hover{
+    padding-right: 10px;
+}
+
+.gear_ico{
+    width: 40px;
+    height: 40px;
+}
+
+img[alt="graph"]{
+    width: 690px;
+    height: 483px;
+    margin-left: 31px;
+    margin-right: 17px;
+}
+
+.first_side_feed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_row_2{
+    display: flex;
+
+}
+
+.first_side_feed>span{
+    background-color: rgb(102, 102, 241);
+    height: 17px;
+    width: 38px;
+    font-size: 11px;
+    border-radius: 3px;
+    color: white;
+    margin-right: 19px;
+}
+
+.first_side_feed>p{
+    font-size: 0.87rem;
+    margin-left: 16px;
+}
+
+.side_feed{
+    width: 319px;
+    background-color: white;
+    border-radius: 5px;
+    height: 481px;
+}
+
+.second_side_feed_flex,.third_side_feed_flex,.fourth_side_feed_flex{
+    display: flex;
+}
+
+.second_side_feed_text>p,small{
+ color: black !important;
+
+}
+
+.second_side_feed_text,.third_side_feed_text,.fourth_side_feed_text{
+    width: 196px;
+}
+
+.second_side_feed_pic,.third_side_feed_pic,.fourth_side_feed_pic{
+    display: flex;
+    align-items: center;
+}
+
+.second_side_feed_sub{
+    display: flex;
+   
+}
+
+.second_side_feed,.third_side_feed,.fourth_side_feed{
+    font-size: 12px;
+    margin-top: 10px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(216, 211, 211);
+}
+
+.second_side_feed_time,.third_side_feed_time,.fourth_side_feed_time{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.today{
+    margin-left: 52px;
+}
+
+.third_side_feed_sub,.fourth_side_feed_sub{
+    display: flex;
+}
+
+.textbox_1_1{
+    width: 225px;
+    border: 1px solid grey;
+    margin-left: 50px;
+    color: grey;
+}
+
+.load{
+    background-color:#47BAC1;
+    padding-left: 73px;
+    padding-right: 73px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top:1px;
+    color: white;
+}
+
+.body_row_3{
+    display: flex;
+    margin-top: 20px;
+}
+
+.calendar_1,.sales,.appointments{
+    width: 319px;
+    height: 480px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.calendar_1{
+    margin-left: 35px;
+    margin-right: 29px;
+}
+
+.sales{
+    margin-right: 29px;
+}
+
+.dot1,.dot2,.dot3{
+    width: 2px;
+    height: 2px;
+    margin-right: 2px;
+    background-color:black;
+    margin-bottom: 4px;
+    margin-left: 3px;
+}
+
+.calendar_1_header{
+    display: flex;
+    
+    min-width: 319px;
+    padding: 19px;
+    margin-bottom: 88px;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.dots_2{
+    display: flex;
+    align-items: center;
+}
+
+.dots_3{
+    display:flex;
+    align-items: center;
+}
+
+th,td{
+    padding: 7px;
+    border-bottom: 1px solid gray;
+}
+
+.calendar_table{
+    margin-left: 22px;
+}
+
+.month{
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.sales_header,.appointments_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+}
+
+.one_start,.two_start,.three_start,.four_start{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(177, 175, 175);
+    margin-bottom: 14px;
+}
+
+.small_box_1{
+    background-color: #47BAC1;
+    width: 9px;
+    height: 9px;
+    border-radius: 1px;
+}
+
+.value_1{
+    color: rgb(7, 182, 7);
+}
+
+.small_box_2{
+    background-color: #fcc100;
+    width: 9px;
+    height: 9px;
+    border-radius: 1px;
+}
+
+.small_box_3{
+    background-color: #f44455;
+    width: 9px;
+    height: 9px;
+    border-radius: 1px;
+}
+
+.small_box_4{
+    background-color: #354052;
+    width: 9px;
+    height: 9px;
+    border-radius: 1px;
+}
+
+.appointments_body_text{
+    font-size: 1.4rem;
+}
+
+.appointments_body{
+    padding: 0px 20px 0px 20px;
+}
+
+.small_text,.small_text_2,.small_text_3{
+    font-size: 0.69rem;
+}
+
+.small_text_2{
+    color: #47BAC1;
+}
+
+.fff_header,.ggg_header,.hhh_header{
+    height: 25px;
+    display: flex;
+}
+
+.thirty_ago{
+    font-size: 10px;
+}
+
+.fff_header_circle,.ggg_header_circle,.hhh_header_circle{
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+    background-color: #47BAC1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fff_header_circle_2,.ggg_header_circle_2,.hhh_header_circle_2{
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 11px;
+}
+
+.eee{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.chatting{
+    font-size: 15px;
+    width: 204px;
+}
+
+.fff,.hhh{
+    margin-bottom: 37px;
+    margin-top: 28px;
+}
+
+.appointments_header{
+    margin-bottom: 38px;
+}
+
+.main_circle{
+    display: flex;
+    justify-content: center;
+}
+
+.circle_text_head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one_start_sub,.two_start_sub,.three_start_sub,.four_start_sub{
+    display: flex;
+    align-items: center;
+}
+
+.one_start{
+    margin-top: 10px;
+}
+
+.project_table{
+    background-color: white;
+    width: 590px;
+    height: 480px;
+    margin-left: 35px;
+
+margin-right: 104px;
+}
+
+.project_table_header,.stocks_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 19px 0px 19px;
+    margin-bottom: 20px;
+}
+
+.done_div{
+    background-color: rgb(7, 206, 7);
+    width: 46px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.cancelled_div{
+    background-color:rgb(241, 38, 2);
+    width: 83px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.in_progress_div{
+    background-color: #fcc100;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.project_table_body_body td,th{
+    padding-top: 15px;
+}
+
+.stocks{
+    width: 319px;
+    background-color: white;
+    height: 450px;
+}
+
+.body_row_4{
+    display: flex;
+    margin-top: 28px;
+}
+
+img[alt="stock_1"]{
+    width: 319px;
+    height: 430px;
+    box-shadow: 3px 3px  #babcbe;
+}
+
+.side_feed{
+    box-shadow: 3px 3px  #babcbe;
+}
+
+.calendar_1,.sales,.appointments,.project_table{
+    box-shadow: 3px 3px  #babcbe;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    margin-top: 43px;
+    align-items: center;
+}
+
+.footer_sub_1{
+    padding: 10px;
+}
+
+.footer_sub_1>span,.footer_sub_2{
+    font-size: 12px;
+    margin-right: 7px;
+}
