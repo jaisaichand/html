@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+}
+
+.header_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(199, 194, 194);
+    padding: 16px;
+}
+
+img[alt="logo"]{
+    height: 40px;
+    width: 40px;
+}
+
+img[alt="cart"]{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links1>a{
+    border-bottom: 2px solid blue;
+    border-radius: 2px;
+}
+
+.base{
+    background-color: rgb(240, 236, 236);
+    height: 1162px;
+}
+
+.header_2{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    box-shadow: 5px 5px rgb(231, 228, 228); 
+    margin-bottom: 20px;
+}
+
+.header_2_sub{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_1{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+
+.row_1_sub{
+    width: 90%;
+    height: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+.row_1_sub_box_1{
+    width: 22%;
+    padding-left: 10px;
+    background-color: white;
+    height: 98%;
+    border-radius: 4px;
+}
+
+.box_1_button_div{
+   margin-top: 15px;
+   display: flex; 
+   justify-content: center; 
+   align-items: flex-end;
+   
+}
+
+.box_1_button_div_button{
+     border: 1px solid blue;
+     padding: 7px 12px;
+     border-radius: 4px;
+}
+
+.box_1_button_div_cart{
+    width: 15px;
+     height: 15px;
+}
+
+.box_1_button_div_button_text{
+    color: blue;
+}

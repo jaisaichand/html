@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login1.css"/>
+    </head>
+    <body>
+        <div class="base">
+            <div class="vertical_div">
+                <div class="horizontal_div">
+                    <div class="flex_div">
+                        <div class="login_text">LOGIN</div>
+                    <div class="username">
+                        <div class="username_text">Username</div>
+                        <input type="text" class="username_input" name="username_input"/>
+                    </div>
+                    <br>
+                    <div class="password">
+                        <div class="password_text">Password</div>
+                        <input type="password" class="password_input" name="password_input"/>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                        <button class="login_button" onclick="check(this.button)" >login</button>
+                        <button class="cancel_button">cancel</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script language="javascript">
+            function check(input)
+            {
+                if(input.username.username_input.value=="jai" && input.password.password_input.value=="jai"){
+                    window.open('vegetables.html')
+                }
+                else{
+                    alert("Incorrect Userame or Password, Please try again")
+                }
+            }
+        </script>
+    </body>
+</html>

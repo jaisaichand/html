@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+.base{
+    background-color: rgb(177, 210, 238);
+    height: 630px;
+    display: flex;
+    align-items: center;
+}
+
+.vertical_div{
+    height: 54%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.horizontal_div{
+    padding-top: 20px;
+    width: 48%;
+    height: 97%;
+    background-color: white;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login_text{
+    font-size: 28px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+
+}
+
+.username_text,.password_text{
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
