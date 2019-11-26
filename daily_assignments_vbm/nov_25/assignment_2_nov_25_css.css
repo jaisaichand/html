@@ -1,0 +1,78 @@
+img[alt="bb_logo"]{
+    max-width: 48px;
+    max-height: 40px;
+    min-width: 48px;
+    min-height: 40px;
+}
+
+img[alt="cart_1"] {
+    max-width: 71px;
+    max-height: 40px;
+    min-width: 70px;
+    min-height: 40px;
+}
+.row{
+    width: 100%;
+}
+
+.row_1{
+    background-color: rgb(192, 182, 182);
+    padding: 15px 0px 15px 0px;
+}
+
+.base_1{
+    background-color: rgb(203, 241, 241);
+    height: 1100px;
+}
+.row_2{
+    background-color: white;
+    height: 3.7rem;
+    padding-top: 14px;
+}
+
+.text_1>span>a{
+    color:black;
+    text-decoration: none;
+}
+
+.text_1>span>a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.row_3_sub,.row_4_sub{
+    height: 443px;
+    background-color: white;
+    margin-right: 10px;
+    
+}
+
+.col-md-3{
+    max-width: 23%;
+}
+
+.row_3,.row_4{
+    margin-top: 20px;
+}
+.row_3>.row>.row_3_sub,.row_4>.row>.row_4_sub{
+    max-width: 23%;
+}
+.row_3>.row>:first-child,.row_4>.row>:first-child{
+    
+    margin-left: 54px;
+}
+
+select[name="select_it"]{
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.row_12>div>span{
+    margin-right: 20px;
+}
+
+.row_12{
+    border-bottom: 3px solid rgb(223, 218, 218);
+    border-top: 3px solid rgb(223, 217, 217);
+}
