@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2 november 26</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="assignment_1_nov_26_css.css"/>
+        <link rel="stylesheet" href="assignment_2_css_nov_26.css"/>
+    </head>
+    <body>
+        <div class="base_1 container-fluid bg-warning">
+                <div class="header_1 row pt-3 pb-3">
+                        <div class="col-md-1">
+                            <img src="modified_jai_png.png" class="rounded" alt="logo"/>
+                        </div>
+                        <div class="col-md-10"></div>
+                        <div class="col-md-1">
+                            <span><a href="#" style="color: white;">LogIn</a></span>
+                        </div>
+        
+                    </div>
+                <div class="mt-5 container border border-1 border-primary rounded bg-info div_i">
+                    <h2 class="text-center mt-4">Registration</h2>
+                    <div class="text-center mt-4">Username</div>
+                    <div><input type="text" placeholder="Enter valid username" class="border border-1 border-warning mb-4 "/></div>
+                    <div class="text-center">Password</div>
+                    <div><input type="text" placeholder="Enter valid password" class="border border-1 border-warning"/></div>
+                    <div class="text-center mt-4">E-Mail</div>
+                    <div><input type="text" placeholder="Enter valid email" class="border border-1 border-warning"/></div>
+                    <div class="text-center mt-4">Mobile Number</div>
+                    <div><input type="number" placeholder="Enter valid mobile number" class="border border-1 border-warning"/></div>
+                    <div>
+                        <div class="gender_div ">
+                            <div class="text-center mt-4 border-bottom border-warning">Gender</div>
+                            <div class="gerrr_1 text-left">
+                                <span>Male</span>
+                                <input type="radio" name="gender" class="mr-5"/> </div>
+                                
+                                <div class="text-right gerrr"><span>Female</span>
+                                    <input type="radio" name="gender"/> </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <p class="border-bottom border-1 border-warning">Hobbies:</p>
+                        <p class="hobbies_check"><input type="checkbox"><span>Reading</span></p>
+                        <p class="hobbies_check"><input type="checkbox"><span>Cricket</span></p>
+                        <p class="hobbies_check"><input type="checkbox"><span>Hockey</span></p>
+                        <p class="hobbies_check"><input type="checkbox"><span>Football</span></p>
+                        <p class="hobbies_check"><input type="checkbox"><span>Programming</span></p>
+                    </div>
+
+                </div>
+                <div class="mt-4">
+                    <div >
+                        <p class="border-bottom border-1 border-warning">Country:</p>
+                        <span><select name="country">
+                            <option value="selected">India</option>
+                            <option>US</option>
+                            <option>UK</option>
+                            <option>JAP</option>
+                        </select></span>
+                    </div>
+                    <div class="mt-5">
+                        <p class="border-bottom border-1 border-warning">State:</p>
+                        <span><select name="state">
+                                <option value="selected">Madhya Pradesh</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Telangana</option>
+                                <option>Goa</option>
+                            </select></span>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <p class="border-bottom border-1 border-warning">Address:</p>
+                    <textarea class="text-center" name="address" placeholder="Enter your address"></textarea>
+                </div>
+                <div class="mt-4 mb-3">
+                    <button class="button_1 btn bg-success">Register</button>
+                    <button class="button_2 btn bg-danger">Cancel</button>
+                </div>
+        </div>
+    </body>
+</html>

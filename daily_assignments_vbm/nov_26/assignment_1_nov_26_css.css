@@ -1,0 +1,45 @@
+img[alt="logo"]{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.header_1{
+    background-color: rgb(236, 189, 128);
+}
+
+.col-md-4{
+    background-color:  #DAF7A6 ;
+    height: 200px;
+    max-width: 28.5%;
+    min-width: 28.5%;
+}
+
+.col-md-6
+{
+    min-width: 44.5%;
+    max-width: 44.5%;
+    max-height: 200px;
+    min-height: 200px;
+    background-color: silver;
+}
+
+.base_1{
+    height: 800px;
+}
+
+.div_4{
+    height: 190px;
+    max-width: 94.5%;
+    margin-left: 30px;
+}
+
+.ml-4{
+    margin-left: 2.2rem !important;
+}
+
+.col-md-12{
+    min-height: 150px;
+    max-height: 150px;
+}

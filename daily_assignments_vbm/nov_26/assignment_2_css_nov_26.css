@@ -1,0 +1,48 @@
+.div_i{
+    max-width: 30%;
+}
+
+input[placeholder="Enter valid username"],input[placeholder="Enter valid password"],input[placeholder="Enter valid email"],input[placeholder="Enter valid mobile number"]{
+    min-width: 98%;
+    text-align: center;
+}
+
+.gerrr{
+    min-width: 244px;
+    display: inline-block !important;
+}
+
+.gerrr_1{
+    display: inline-block !important;
+}
+
+.gender_div{
+    max-width: 99.6%;
+}
+
+.hobbies_check{
+    margin-left: 5rem !important;
+}
+
+select[name="country"],select[name="state"]{
+    min-width: 350px;
+}
+
+textarea[name="address"]{
+    min-width: 99%;
+}
+
+.button_1{
+    margin-left: 70px;
+}
+.button_2{
+    margin-left: 60px;
+}
+
+.header_1{
+    background-color: rgb(223, 72, 102) !important;
+}
+
+.base_1{
+    height: 1300px !important;
+}
