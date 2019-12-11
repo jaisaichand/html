@@ -1,0 +1,20 @@
+.div_1_sub{
+    position: relative;
+}
+
+.div_1_sub_list{
+    position: absolute;
+    top: 45px;
+    right: 15px;
+}
+
+button{
+    width: 146px;
+}
+
+.div_1{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    display: block;
+}
