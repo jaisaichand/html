@@ -1,0 +1,217 @@
+
+#btn1{
+    
+    border-radius: 24px;
+    background: transparent;
+    flex: 1;
+    border: 1px solid;
+}
+
+#links1{
+    flex: 2;
+}
+
+#logo_text{
+    flex: 1;
+    font-size: 38px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+#btn1-container{
+    flex: 0.7;
+    text-align: end;
+}
+
+#seg1{
+    height: 100vh;
+    width: 100vw;
+    background: url("one1.jpg");
+    background-size: cover;
+}
+
+#seg1-child{
+    background: url("two2.jpg");
+    background-size: cover;
+}
+#empline{
+    font-weight: 700;
+    font-size: 2.75rem;
+    text-shadow: 5px 4px 4px white;
+}
+#p1{
+    font-size: 21px;
+}
+#cnt1>button{
+    border-radius: 11px;
+}
+.links{
+    transition: 1s;
+    min-height: 35px;
+    border-radius:3px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.card,.card-deck{
+    margin: 37px 0px 0px 0px !important;
+}
+
+.links:hover{
+text-decoration: none;
+background: black;
+    color: white;
+}
+
+.links::after{
+    background: black;
+    color: white;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#cnt1Parent{
+    display: flex;
+    
+    padding: 28px;
+    
+}
+
+img[alt="second_pic"]{
+    width: 39%;
+    height: 29%;
+}
+
+#cnt1{
+    flex: 1;
+    padding: 19px;
+}
+
+#img-div{
+    flex: 1;
+    background: url("two2.jpg");
+    background-size: cover;
+}
+
+#img-div{
+    flex:1;
+}
+
+#pic_left{
+    max-width: 33%;
+}
+#div_right{
+    
+}
+
+#stats_pic{
+    max-width: 408px;
+}
+
+.pp{
+    min-width: 96%;
+    max-width: 96%;
+    flex-wrap: wrap;
+}
+
+.fa-class{
+    font-size: 291%;
+
+}
+
+.fas-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-right-div{
+    flex: 1;
+    min-width: 50vw;
+    min-height: 40vh;
+    max-width: 50vw;
+    max-height: 40vh;
+}
+
+.testi{
+    min-width: 50vw;
+    min-height: 34vh;
+    max-width: 50vw;
+    max-height: 34vh;
+    color: white;
+    font-size: 152%;
+    font-style: oblique;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    border: 0!important;
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+    background: transparent;
+    color: black;
+}
+.cin,.cit{
+    background: #33BEFF;
+    padding: 6%;
+    
+}
+.cit>p{
+    padding-right: 30%;
+}
+.span1,.span2{
+color: white;
+
+}
+
+.span1{
+    font-size: 140%;
+}
+
+.bottom-par{
+    color: rgb(233, 233, 233);
+}
+
+.bottom-par p{
+    font-size: 70%;
+}
+.bottom-par a{
+    display: block;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+.bottom-par a:hover{
+    text-decoration: none;
+}
+
+.logo1{
+    background: white;
+    display: block;
+    width: 2%;
+    text-align: center;
+}
+
+.kil{
+    min-width: 38px;
+    max-width: 38px;
+    min-height:38px;
+    max-height:38px;
+    background: rgb(31, 30, 30);
+    border-radius: 22px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(122, 116, 116) ;
+}
+
+#anchors>a{
+display: inline;
+}
+
+#footer-1{
+    background: rgb(15, 1, 10);
+}
