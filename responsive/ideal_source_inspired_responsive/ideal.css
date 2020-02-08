@@ -1,0 +1,53 @@
+.links1,.links1:hover{
+    transition: 1s;
+    text-decoration: none;
+}
+
+.active,.links1:hover,.card{
+    background: rgb(56, 166, 240);
+}
+
+.card1{
+    margin: 0px !important;
+    transition: 1.2s;
+}
+
+.card-body1{
+    transition: 1.4s;
+}
+
+#card1,#card2,#card3,#card4{
+    padding: 10px;
+    border-right: 1px solid whitesmoke;
+    transition: 0.7s;
+}
+
+.list-group-item1{
+    list-style-type: none;
+border-bottom: 1px solid rgb(207, 203, 203);
+}
+
+#card1:hover,#card2:hover,#card3:hover,#card4:hover{
+position: relative;
+background: rgb(202, 198, 198);
+bottom: 40px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.i1{
+    font-size: 123%;
+}
+
+.card_div1{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.carousel-item{
+    padding: 11% 11% 0% 11%;
+    background: white;
+}
