@@ -19,7 +19,7 @@
 #card1,#card2,#card3,#card4{
     padding: 10px;
     border-right: 1px solid whitesmoke;
-    transition: 0.7s;
+    transition: 1s;
 }
 
 .list-group-item1{
@@ -31,6 +31,8 @@ border-bottom: 1px solid rgb(207, 203, 203);
 position: relative;
 background: rgb(202, 198, 198);
 bottom: 40px;
+transition: 1s;
+transform: translateY(-30px);
 }
 
 p{
